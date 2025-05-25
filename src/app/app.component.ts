@@ -5,7 +5,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
   selector: 'app-root',
   imports: [RouterOutlet, RouterModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'angular-app';
