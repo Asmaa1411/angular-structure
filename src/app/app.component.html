@@ -5,9 +5,11 @@
         <a routerLink="/">Home</a>
         <a routerLink="/contact-form">Contact Form</a>
       </nav>
-      <div class="content">
+      <router-outlet />
+      <div class="content pt-5 ps-5" >
+        <card></card>
       </div>
 </main>
 
 
-<router-outlet />
+
