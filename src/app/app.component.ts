@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterModule } from '@angular/router';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterModule],
+  imports: [RouterOutlet, RouterModule, ProductListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

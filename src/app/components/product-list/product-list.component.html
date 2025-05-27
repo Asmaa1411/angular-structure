@@ -1,0 +1,9 @@
+<h2 class="p-5">Product List:</h2>
+<div class="ps-5">
+@for (product of products; track product.id)
+{
+    <div class="pb-5">
+        <product [id]="product.id" [title]="product.title" [description]="product.description"></product>
+    </div>
+}
+</div>
